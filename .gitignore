@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Caches and temporary files
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+tmp/
+temp/
+
+# Local configuration
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+!.vscode/extensions.json
